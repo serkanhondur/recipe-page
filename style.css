@@ -1,0 +1,45 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-family: 'Young Serif', serif;
+  color: hsl(14, 45%, 36%);
+}
+
+
+
+.recipe-card{
+  max-width: 700px;
+  background-color: white;
+}
+
+.recipe-image-container img{
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+  /* Arka planı test etmek için body yerine burayı boyayalım */
+  .recipe-page {
+    padding: 0; /* Mobilde ana kapsayıcıda boşluk istemeyebilirsin */
+  }
+
+  .recipe-card {
+    max-width: 100%; /* Kart mobilde ekranı tam kaplasın */
+    margin: 0; 
+  }
+
+  /* Yazıların kenarlara yapışmaması için içeriğe padding verelim */
+  .recipe-content {
+    padding: 0 32px 32px 32px; /* Sağdan ve soldan 32px boşluk */
+  }
+
+  /* Görselin kenarlardaki boşluğa uyması için (opsiyonel) */
+  .recipe-image-container img {
+    border-radius: 0; /* Mobilde tam genişlik daha şık durur */
+  }
+}
