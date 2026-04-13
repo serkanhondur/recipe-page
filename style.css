@@ -22,6 +22,26 @@ h1, h2 {
     border-radius:10px;
 }
 
+/* Tablo satırlarını hedefle */
+.nutrition-table tr {
+  border-bottom: 1px solid #e0e0e0; /* Açık gri bir çizgi */
+}
+
+/* En alt satırdaki çizgiyi kaldır */
+.nutrition-table tr:last-child {
+  border-bottom: none;
+}
+
+/* Hücrelerin içindeki boşlukları ve hizalamayı ayarla */
+.nutrition-table td {
+  padding: 12px 0; /* Yazıların çizgiye yapışmaması için */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Çizgilerin birleşmesini sağlar */
+}
+
 @media (max-width: 480px) {
   /* Arka planı test etmek için body yerine burayı boyayalım */
   .recipe-page {
