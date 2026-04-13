@@ -1,1 +1,1 @@
-Frontend Mentor'deki 4. calışma Recipe Page. Omelette yapma tarifi anlatılıyor.
+4. calışma Frontend Mentor'deki ---Recipe Page---. Omelette yapma tarifi anlatılıyor.
